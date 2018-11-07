@@ -1,7 +1,7 @@
 def my_select(collection)
 
   i = 0
-  collection = []
+  select = []
   while i < collection.length
     if yield(collection[i])
       select << collection[i]
@@ -11,3 +11,4 @@ def my_select(collection)
   select
   
 end
+
